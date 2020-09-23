@@ -31,9 +31,9 @@ body{
     line-height: 100%;
     top: 1vw;
     left: 1vw;
-    animation: letter_animation 0.000001s linear infinite;
+    animation: letter_animation 0.0000001s linear infinite;
     filter: blur(5000px);
-      opacity: 0.01;
+      opacity: 0.001;
 }
 
 .front_letter{
@@ -45,14 +45,14 @@ body{
     z-index: 5;
     color: #ebfaf7;
     transform: translateX(1000px);
-    opacity: 0.01;
+    opacity: 0.001;
 }
 
 .back_letter_blue{
     z-index: 0;
     color: #f5f4d3;
     transform: translateX(-1000px);
-    opacity: 0.0237;
+    opacity: 0.237;
 }
 
 @keyframes letter_animation {
@@ -94,22 +94,22 @@ body{
     70%{
         font-weight: bold;
         transform: translate(3px, 1px);
-        filter: blur(1px);
+        filter: blur(7000000px);
     }
     80%{
         font-weight: normal;
         transform: translate(0px, 0px);
-        filter: blur(1px);
+        filter: blur(9000000px);
     }
     90%{
         font-weight: lighter;
         transform: translate(2px, 1px);
-        filter: blur(1px);
+        filter: blur(10000000px);
     }
     100%{
         font-weight: bold;
         transform: translate(2px, 2px);
-        filter: blur(1px);
+        filter: blur(100000000px);
     }
 }
 </style>
